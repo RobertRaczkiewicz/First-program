@@ -3,10 +3,25 @@ I would like to come forth with my first project in Java. This program is cash m
 
 # Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
+
+## General info
+
+## Technologies
+* Java ver. 11 - IntelliJ Idea
+
+## Features
+List of features ready and TODOs for future development
+* 
+
+To-do list:
+* 
+
+## Status
+Project is: in progress
+
+## Contact
+Created by Robert Raczkiewicz (raczkiewicz81@gmail.com) - feel free to contact me!
