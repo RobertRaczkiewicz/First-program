@@ -20,6 +20,18 @@ public class Card {
         System.out.println("3 - Millennium credit card - Alfa");
         Scanner scanner= new Scanner(System.in);
         int card= scanner.nextInt();
+        switch (card)
+        {
+            case 1:
+                System.out.println("You choose Millennium debit card");
+                break;
+            case 2:
+                System.out.println("You choose Millennium credit card - Impresja");
+                break;
+            case 3:
+                System.out.println("You choose Millennium credit card - Alfa");
+                break;
+        }
         return card;
     }
     int memoryPin(int a) throws FileNotFoundException {
@@ -40,9 +52,9 @@ public class Card {
         }
     }
 
-    int pin(int b) {
+    int pinVerification(int b) {
         int accept=1;
-        System.out.println("Enter your PIN:");
+        System.out.println("Please enter your PIN number:");
         Scanner scanner=new Scanner(System.in);
         int pin=scanner.nextInt();
         if (b==pin){
@@ -51,7 +63,7 @@ public class Card {
         }
         else{
             System.out.println("Your PIN is incorrect !!! Try again !");
-            System.out.println("Enter your PIN:");
+            System.out.println("Please enter your PIN number:");
             pin=scanner.nextInt();
             if (b==pin){
                 System.out.println("PIN is correct!");
@@ -59,7 +71,7 @@ public class Card {
             }
             else {
                 System.out.println("Your PIN is incorrect !!! Try again !");
-                System.out.println("Enter your PIN:");
+                System.out.println("Please enter your PIN number:");
                 pin=scanner.nextInt();
                 if (b==pin){
                     System.out.println("PIN is correct!");
